@@ -1,0 +1,41 @@
+# Data files
+data/
+*.jsonl
+*.json
+!package.json
+
+# Model files
+*.pt
+*.bin
+*.safetensors
+*.faiss
+*.npy
+
+# Results / eval artifacts
+results*/
+checkpoints/
+critic_ckpts/
+eval_local*/
+badcases*/
+sample_cases*/
+sample_train*/
+logs_local/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+*.swp
+
+# Temp / logs
+*.log
+/tmp/
+
+# IDE
+.vscode/
+
+# Paper
+paper.tex
